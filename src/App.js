@@ -13,11 +13,11 @@ function App() {
           </p>
         </div>
         <div className="prep">
-          <h3>Preparation Time</h3>
+          <h3>Preparation time</h3>
           <ul>
-            <li>Total: Approximately 10 minutes</li>
-            <li>Preparation: 5 minutes</li>
-            <li>Cooking: 5 minutes</li>
+            <li><b>Total</b>: Approximately 10 minutes</li>
+            <li><b>Preparation</b>: 5 minutes</li>
+            <li><b>Cooking</b>: 5 minutes</li>
           </ul>
         </div>
         <div className="ingredients">
@@ -30,6 +30,7 @@ function App() {
             <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
           </ul>
         </div>
+        <hr/>
         <div className="instructions">
           <h2>Instructions</h2>
           <ol>

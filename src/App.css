@@ -1,6 +1,14 @@
 body {
   background-color: #f3e5d7;
+}
 
+@font-face {
+  font-family: 'Outfit';
+  src: url('./fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Young serif';
+  src: url('./fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
 }
 
 .card {
@@ -16,4 +24,86 @@ body {
   height: 300px;
   border-radius: 50px;
   padding: 30px 40px;
+}
+
+.content{
+  width: 656px ;
+  height: 1280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 30px 40px;
+  margin: 0;
+  color: #312e2c;
+}
+
+.prep {
+  background-color: #fff7fb;
+  padding-left: 25px;
+  border-radius: 10px;
+}
+
+.prep b {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: 'Young Serif', serif;
+  color: #312e2c;
+  line-height: 100%;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+
+h2 {
+  color: #854632;
+  font-family: 'Young Serif', serif;
+  font-weight: 400;
+}
+
+h3 {
+  color: #7a284e;
+  font-size: 100px;
+}
+
+h3, li{
+  font-family: 'Outfit';
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  padding-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+  font-weight: 300;
+  font-size: 16px;
+}
+ul li{
+  padding-left: 1rem;
+}
+
+ul li::marker {
+  color:#854632;
+}
+
+ol{
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+ol li::marker {
+  color:#854632;
+}
+
+ol li {
+  font-family: 'Outfit';
+  padding-left: 1rem;
+}
+
+hr {
+  border: none;
+  border-top:2px solid #000;
+  margin: 20px 0;
 }
