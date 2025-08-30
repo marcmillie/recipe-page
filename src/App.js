@@ -42,8 +42,9 @@ function App() {
             <li><b>Enjoy!</b>: Serve hot, with additional salt and pepper if needed.</li>
           </ol>
         </div>
+        <hr/>
         <div className="nutrition">
-          <h2>Nutrition Information</h2>
+          <h2>Nutrition</h2>
           <p>The table below shows nutritional values per serving without the additional fillings.</p>
           <table>
             <tbody>

@@ -32,7 +32,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  padding: 30px 40px;
+  padding: 10px 40px;
   margin: 0;
   color: #312e2c;
 }
@@ -104,6 +104,33 @@ ol li {
 
 hr {
   border: none;
-  border-top:2px solid #000;
+  border-top:1px solid #e3ddd7;
   margin: 20px 0;
+}
+
+table {
+  font-family: 'Outfit';
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  border-bottom: 1px solid #e3ddd7;
+}
+
+td, th {
+  padding:6px;
+}
+
+td {
+  padding-left: 30px;
+}
+
+th {
+  color: #854632;
+  padding-left: 245px;
+}
+
+th:last-child {
+  border-bottom: none;
 }
